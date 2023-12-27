@@ -10,7 +10,8 @@ func main() {
 	stateTax, _ := calculateTaxWithName(100)
 	fmt.Println(stateTax)
 
-	age := 150
+	age := 30
 	birtday(&age)
 	fmt.Println(age)
+	day("Saturday")
 }

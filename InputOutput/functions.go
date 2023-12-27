@@ -32,3 +32,16 @@ func birtday(age *int) {
 
 	*age++
 }
+
+func day(day string) {
+	switch day {
+	case "Monday":
+		fmt.Println("Today is Monday")
+	case "Saturday":
+		fallthrough
+	case "Sunday":
+		fmt.Println("Today is weekend")
+	default:
+		fmt.Println("Today is a weekday")
+	}
+}
