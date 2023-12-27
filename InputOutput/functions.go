@@ -26,5 +26,9 @@ func calculateTaxWithName(price float32) (stateTax float32, cityTax float32) {
 }
 
 func birtday(age *int) {
+	if *age > 140 {
+		defer panic("Invalid age")
+	}
+
 	*age++
 }
