@@ -7,9 +7,10 @@ const url = "http://google.com"
 
 func main() {
 	printData()
-	fmt.Println(add(1, 2))
-	fmt.Println(addAndSubstract(1, 2))
-	stateTax, cityTax := calculateTaxWithName(100)
+	stateTax, _ := calculateTaxWithName(100)
 	fmt.Println(stateTax)
-	fmt.Println(cityTax)
+
+	age := 22
+	birtday(&age)
+	fmt.Println(age)
 }
