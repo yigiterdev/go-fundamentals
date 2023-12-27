@@ -20,3 +20,7 @@ func addAndSubstract(a int, b int) (int, int) {
 func calculateTax(price float32) (float32, float32) {
 	return price * 0.08, price * 1.08
 }
+
+func calculateTaxWithName(price float32) (stateTax float32, cityTax float32) {
+	return price * 0.08, price * 1.08
+}

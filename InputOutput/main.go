@@ -9,7 +9,7 @@ func main() {
 	printData()
 	fmt.Println(add(1, 2))
 	fmt.Println(addAndSubstract(1, 2))
-	stateTax, cityTax := calculateTax(100)
+	stateTax, cityTax := calculateTaxWithName(100)
 	fmt.Println(stateTax)
 	fmt.Println(cityTax)
 }
